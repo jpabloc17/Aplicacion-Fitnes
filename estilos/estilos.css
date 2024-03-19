@@ -4,7 +4,8 @@ html {
 }
 
 body {
-  background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/81361d59-fd6c-4693-b198-a40e0e5795fd/dg3vuog-1564dd41-6085-4d05-9235-916607267ee2.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzgxMzYxZDU5LWZkNmMtNDY5My1iMTk4LWE0MGUwZTU3OTVmZFwvZGczdnVvZy0xNTY0ZGQ0MS02MDg1LTRkMDUtOTIzNS05MTY2MDcyNjdlZTIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.oTxH0XDjwQb7ZKyvj3kA6TnpjXjjzE3I66Dx1feZ8uc");
+  height: 100vh;
+  background: url("https://i.pinimg.com/564x/69/d9/8f/69d98fcdfd419526117076514d5b55fe.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -90,7 +91,7 @@ body {
 
 .estadisticas-contenedor {
   width: 70%;
-  background-color: rgba(92, 89, 89, 0.5);
+  background-color: rgba(92, 89, 89, 0.3);
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
   display: flex;
@@ -101,6 +102,8 @@ body {
 .estadisticas {
   text-align: center;
   padding: 25px;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 
 .numeros {
@@ -110,4 +113,24 @@ body {
 
 .texto {
   margin: 0px;
+}
+
+.redes-sociales-contenedor {
+  width: 25%;
+  position: relative;
+  margin: auto 0 auto auto;
+  bottom: 80px;
+}
+
+.redes-sociales-contenedor ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.redes-sociales-contenedor ul li img {
+  height: 35px;
+  width: 35px;
 }
