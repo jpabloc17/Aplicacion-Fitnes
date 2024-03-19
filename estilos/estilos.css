@@ -50,11 +50,36 @@ body {
   cursor: pointer;
 }
 
-.unetenos {
+.botones {
   font-weight: 700;
   color: #ffffffdc;
   background-color: #f74d0b;
   padding: 10px 15px;
   border: none;
   border-radius: 50px;
+  cursor: pointer;
+}
+
+.botones:hover {
+  scale: 1.1;
+}
+
+.unetenos {
+}
+
+.slogan-contenedor {
+  width: 70%;
+  margin: 200px auto 80px 50px;
+}
+
+.slogan {
+  font-size: 60px;
+  font-family: Anton;
+}
+
+.slogan {
+  margin-bottom: 20px;
+}
+
+.ver-clases-boton {
 }
