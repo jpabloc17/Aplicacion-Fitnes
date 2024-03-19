@@ -16,6 +16,10 @@ body {
   color: #f74d0b;
 }
 
+.grosor-texto-700 {
+  font-weight: 700;
+}
+
 .encabezado {
   background-color: #000000c0;
   display: flex;
@@ -82,4 +86,28 @@ body {
 }
 
 .ver-clases-boton {
+}
+
+.estadisticas-contenedor {
+  width: 70%;
+  background-color: rgba(92, 89, 89, 0.5);
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.estadisticas {
+  text-align: center;
+  padding: 25px;
+}
+
+.numeros {
+  font-size: 40px;
+  margin: 0 auto 10px;
+}
+
+.texto {
+  margin: 0px;
 }
